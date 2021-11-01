@@ -1,2 +1,2 @@
 # aboutme
-trism 5 modules
+trial 5 modules
