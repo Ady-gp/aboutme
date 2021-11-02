@@ -2,6 +2,16 @@ body{
   margin:0;
   text-align: center;
 }
+a{
+  color:#A26EA1
+  font-family:'Shadows Into Light Two', cursive;
+  margin:20px 50px;
+  text-decoration: none;
+  }
+  a:hover{
+    color: #F18A9B;
+    }
+
 h1{
   margin:0 auto 0 auto;
   font-size:5.62em;
@@ -106,8 +116,14 @@ background-color:#FFFDF9;
       float: left;
       }
   .footer-link{
-    margin:auto;
+    color:#A26EA1
+    font-family:'Shadows Into Light Two', cursive;
+    margin:20px 50px;
+    text-decoration: none;
     }
+    a:hover{
+      color: #F18A9B;
+      }
 
   .contact-me{
     margin:0;
@@ -127,4 +143,40 @@ background-color:#FFFDF9;
     margin-right: 20px;
     margin-top: 5px;
     margin-bottom:30px;
+    }
+
+  .btn{
+  background:#FFDFD3;
+  background-image: -webkit-linear-gradient(top,color-stop(0.05,#FFDFD3), color-stop (1,#FEC8D8));
+  background-image: -moz-linear-gradient(top, #FFDFD3, #FEC8D8);
+  background-image: -ms-linear-gradient(top, #FFDFD3, #FEC8D8);
+  background-image: -o-linear-gradient(top, #FFDFD3, #FEC8D8);
+  background-image: linear-gradient(to bottom, #FFDFD3, #FEC8D8);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Dosis', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding:5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #D291BC;
+  background-image: -webkit-linear-gradient(top, #D291BC, #957DAD);
+  background-image: -moz-linear-gradient(top, #D291BC, #957DAD);
+  background-image: -ms-linear-gradient(top, #D291BC, #957DAD);
+  background-image: -o-linear-gradient(top, #D291BC, #957DAD);
+  background-image: linear-gradient(to bottom, #D291BC, #957DAD);
+  text-decoration: none;
+}
+
+.copyright{
+    color:#A26EA1
+    font-family:'Dosis', sans-serif;
+    margin:20px 50px;
+    text-decoration: none;
+    font-size: 0.75rem;
+    padding: 20px 0;
     }
